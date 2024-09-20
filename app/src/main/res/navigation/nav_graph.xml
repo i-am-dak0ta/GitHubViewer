@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/fragment_auth">
+
+    <!-- Auth Fragment -->
+    <fragment
+        android:id="@+id/fragment_auth"
+        android:name="com.icerock.githubviewer.presentation.ui.auth.AuthFragment"
+        android:label="Auth"
+        tools:layout="@layout/fragment_auth">
+        <action
+            android:id="@+id/action_auth_to_repositories_list"
+            app:destination="@id/fragment_repositories_list"
+            app:popUpTo="@id/fragment_auth"
+            app:popUpToInclusive="true"/>
+    </fragment>
+
+    <!-- Repositories List Fragment -->
+    <fragment
+        android:id="@+id/fragment_repositories_list"
+        android:name="com.icerock.githubviewer.presentation.ui.repositories.RepositoriesListFragment"
+        android:label="Repositories"
+        tools:layout="@layout/fragment_repositories_list">
+        <action
+            android:id="@+id/action_repositories_list_to_detail_info"
+            app:destination="@id/fragment_detail_info" />
+        <action
+            android:id="@+id/action_repositories_list_to_auth"
+            app:destination="@id/fragment_auth"
+            app:popUpTo="@id/fragment_auth"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+    <!-- Detail Info Fragment -->
+    <fragment
+        android:id="@+id/fragment_detail_info"
+        android:name="com.icerock.githubviewer.presentation.ui.detail.DetailInfoFragment"
+        android:label="Repository Details"
+        tools:layout="@layout/fragment_detail_info">
+        <argument
+            android:name="repoId"
+            app:argType="string" />
+        <action
+            android:id="@+id/action_detail_info_to_auth"
+            app:destination="@id/fragment_auth"
+            app:popUpTo="@id/fragment_auth"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_detail_info_to_repositories_list"
+            app:destination="@id/fragment_auth"
+            app:popUpTo="@id/fragment_auth"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+</navigation>

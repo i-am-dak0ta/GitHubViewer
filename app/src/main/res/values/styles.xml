@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AuthHintText" parent="@style/TextAppearance.AppCompat">
+        <item name="android:textColor">@color/secondary</item>
+    </style>
+
+    <style name="HintTextStyle" parent="TextAppearance.MaterialComponents.Caption">
+        <item name="android:textColor">@color/grey</item>
+    </style>
+
+</resources>

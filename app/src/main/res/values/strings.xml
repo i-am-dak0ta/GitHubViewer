@@ -1,3 +1,52 @@
 <resources>
-    <string name="app_name">GitHubViewer</string>
+
+    <string name="app_name" translatable="false">GitHubViewer</string>
+    <string name="empty_text" translatable="false" />
+
+    <!-- Auth Fragment -->
+    <string name="personal_access_token">Personal access token</string>
+    <string name="github_logo_description">GitHub Logo</string>
+
+    <!-- Repositories Fragment -->
+    <string name="toolbar_repositories_list_title">Repositories</string>
+
+    <!-- Exit Dialog -->
+    <string name="dialog_exit_title">Exit Confirmation</string>
+    <string name="dialog_exit_description">Are you sure you want to exit the app?</string>
+    <string name="dialog_exit_positive_btn">Exit</string>
+    <string name="dialog_exit_negative_btn">Stay</string>
+
+    <!-- Error Dialog -->
+    <string name="dialog_error_title">Error</string>
+    <string name="dialog_error_btn">OK</string>
+
+    <!-- Action Buttons -->
+    <string name="sign_in">SING IN</string>
+    <string name="retry">RETRY</string>
+    <string name="refresh">REFRESH</string>
+    <string name="log_out">Log Out</string>
+    <string name="back">Back</string>
+
+    <!-- Error Messages -->
+    <string name="error_empty_token">The token cannot be empty</string>
+    <string name="error_invalid_characters_in_token">Token contains invalid characters</string>
+    <string name="error_moved_permanently" translatable="false">Moved Permanently</string>
+    <string name="error_bad_request">Bad Request</string>
+    <string name="error_unauthorized">Invalid Token</string>
+    <string name="error_forbidden">Forbidden</string>
+    <string name="error_not_found">Not Found</string>
+    <string name="error_server">Internal Server Error</string>
+    <string name="error_network">Connection Error</string>
+    <string name="error_empty_repositories_list">Empty</string>
+    <string name="error_empty_readme">README.md is empty</string>
+    <string name="error_no_readme">No README.md</string>
+    <string name="error_no_license">No License</string>
+    <string name="error_unknown">Unknown Error</string>
+
+    <!-- Error Descriptions -->
+    <string name="error_network_description">Check your Internet connection</string>
+    <string name="error_empty_repositories_list_description">No repositories at the moment</string>
+    <string name="http_error_description">An HTTP error occurred</string>
+    <string name="error_unknown_description">Please try again later</string>
+
 </resources>

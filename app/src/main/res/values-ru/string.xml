@@ -1,0 +1,49 @@
+<resources>
+
+    <!-- Auth Fragment -->
+    <string name="personal_access_token">Персональный токен доступа</string>
+    <string name="github_logo_description">Логотип GitHub</string>
+
+    <!-- Repositories Fragment -->
+    <string name="toolbar_repositories_list_title">Репозитории</string>
+
+    <!-- Exit Dialog -->
+    <string name="dialog_exit_title">Подтверждение выхода</string>
+    <string name="dialog_exit_description">Вы уверены, что хотите выйти из приложения?</string>
+    <string name="dialog_exit_positive_btn">Выйти</string>
+    <string name="dialog_exit_negative_btn">Остаться</string>
+
+    <!-- Error Dialog -->
+    <string name="dialog_error_title">Ошибка</string>
+    <string name="dialog_error_btn">ОК</string>
+
+    <!-- Action Buttons -->
+    <string name="sign_in">ВОЙТИ</string>
+    <string name="retry">ПОВТОРИТЬ</string>
+    <string name="refresh">ОБНОВИТЬ</string>
+    <string name="log_out">Выйти</string>
+    <string name="back">Назад</string>
+
+    <!-- Error Messages -->
+    <string name="error_empty_token">Токен не может быть пустым</string>
+    <string name="error_invalid_characters_in_token">Токен содержит недопустимые символы</string>
+    <string name="error_moved_permanently">Перемещено навсегда</string>
+    <string name="error_bad_request">Неверный запрос</string>
+    <string name="error_unauthorized">Неверный токен</string>
+    <string name="error_forbidden">Доступ запрещен</string>
+    <string name="error_not_found">Не найдено</string>
+    <string name="error_server">Внутренняя ошибка сервера</string>
+    <string name="error_network">Ошибка соединения</string>
+    <string name="error_empty_repositories_list">Пусто</string>
+    <string name="error_empty_readme">README.md пуст</string>
+    <string name="error_no_readme">README.md отсутствует</string>
+    <string name="error_no_license">Лицензия отсутствует</string>
+    <string name="error_unknown">Неизвестная ошибка</string>
+
+    <!-- Error Descriptions -->
+    <string name="error_network_description">Проверьте подключение к Интернету</string>
+    <string name="error_empty_repositories_list_description">Репозиториев пока нет</string>
+    <string name="http_error_description">Произошла ошибка HTTP</string>
+    <string name="error_unknown_description">Пожалуйста, попробуйте позже</string>
+
+</resources>
