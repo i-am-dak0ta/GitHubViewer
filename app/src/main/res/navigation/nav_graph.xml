@@ -29,7 +29,7 @@
         <action
             android:id="@+id/action_repositories_list_to_auth"
             app:destination="@id/fragment_auth"
-            app:popUpTo="@id/fragment_auth"
+            app:popUpTo="@id/fragment_repositories_list"
             app:popUpToInclusive="true" />
     </fragment>
 
@@ -45,12 +45,12 @@
         <action
             android:id="@+id/action_detail_info_to_auth"
             app:destination="@id/fragment_auth"
-            app:popUpTo="@id/fragment_auth"
+            app:popUpTo="@id/fragment_repositories_list"
             app:popUpToInclusive="true" />
         <action
             android:id="@+id/action_detail_info_to_repositories_list"
-            app:destination="@id/fragment_auth"
-            app:popUpTo="@id/fragment_auth"
+            app:destination="@id/fragment_repositories_list"
+            app:popUpTo="@id/fragment_detail_info"
             app:popUpToInclusive="true" />
     </fragment>
 
